@@ -1,8 +1,0 @@
-first, second, third, fourth = ARGV
-puts "The script is called: #{$0}"
-puts "Your first variable is: #{first}"
-print "What's your age?"
-age = STDIN.gets.chomp()
-puts "Your age is #{age} and the second variable is: #{second}"
-puts "Your third variable is: #{third}"
-puts "Your fourth variable is: #{fourth}"
