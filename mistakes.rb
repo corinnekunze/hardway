@@ -16,3 +16,5 @@ puts "We need to use STDIN when we are using the ARGV variable. Notice what happ
 But when we add variables ruby ex13.rb cheese crackers pie - we get the error. \n
 
 When there are variables declared in ARGV, the default .gets tries to look for a file instead of a user input. That's why we have to specify to search for the standard input AKA: STDIN﻿"
+puts "================"
+puts "ARGV.first only uses the first variable passed through"
