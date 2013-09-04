@@ -18,3 +18,4 @@ But when we add variables ruby ex13.rb cheese crackers pie - we get the error. \
 When there are variables declared in ARGV, the default .gets tries to look for a file instead of a user input. That's why we have to specify to search for the standard input AKA: STDIN﻿"
 puts "================"
 puts "ARGV.first only uses the first variable passed through"
+puts ".close() also saves the file, it was important for me to save it before I used .read() again to return the file that was edited before."
