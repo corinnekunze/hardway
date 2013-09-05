@@ -19,3 +19,7 @@ When there are variables declared in ARGV, the default .gets tries to look for a
 puts "================"
 puts "ARGV.first only uses the first variable passed through"
 puts ".close() also saves the file, it was important for me to save it before I used .read() again to return the file that was edited before."
+puts "================"
+puts "File.open is a synonym for File.new."
+puts "When we use File.open(filename, 'w') we are already truncating the file."
+puts "backslashes are escaping characters"
