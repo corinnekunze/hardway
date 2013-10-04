@@ -1,0 +1,10 @@
+STDIN ---- standard input
+STDIN.gets.chomp() ---- Asks for user's input
+ARGV ---- argument variable within load name ex. ARGV[0] first variable passed, ARGV will take multiple variables.
+File.open(filename) ---- opens a file, useful for assigning to a variable. Multiple uses to write to a file. 
+File.open(filename, 'w') ---- creates empty file for writing
+File.open(txt, 'r+') ---- for both reading and writing
+f.seek(0, IO::SEEK_SET) # IO::SEEK_SET - seeks to the absolute location given by the first integer number
+shorthand variable += : current_line += 1 is the same as current_line = current_line + 1
+.read --- reads, useful with puts f.read
+.seek --- moves to a certain position of the file for reading
