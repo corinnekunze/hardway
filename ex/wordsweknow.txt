@@ -8,3 +8,12 @@ f.seek(0, IO::SEEK_SET) # IO::SEEK_SET - seeks to the absolute location given by
 shorthand variable += : current_line += 1 is the same as current_line = current_line + 1
 .read --- reads, useful with puts f.read
 .seek --- moves to a certain position of the file for reading
+
+== : equal
+!= : not equal
+>  : greater than
+<  : less than
+>= : greater than equal to
+<= : less than equal to
+<=>: Comparison operator. 0 if ==, 1 if <, -1 if >
+
