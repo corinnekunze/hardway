@@ -9,3 +9,14 @@ end
 
 b = Bugs.new
 b.stepon
+
+BEGIN {
+	puts "yay0"
+}
+
+i=0
+	while i<3
+	  i =+ 1
+	  print i, "\n"
+	  break
+	end
