@@ -21,3 +21,5 @@ BEGIN = BEGIN != begin. BEGIN runs the block before any other statement in the f
 
 
 ANYTHING_GOES_HERE
+
+puts keywords
