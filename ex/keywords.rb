@@ -35,7 +35,9 @@ case = sets up a system for a variable depending on it's value. EX:
 	  "adult"
 	end
 
-class = classes are first-class Objects. Meaning they can be dynamically created/destroyed/passed to a function/have all rights of a variable/and returned as a variable.  
+class = classes are first-class Objects. Meaning they can be dynamically created/destroyed/passed to a function/have all rights of a variable/and returned as a variable. 
+def = a Ruby 'method'. Is very similar to a function in other languages. Best practices first letter should be lowercase. 
+defined? = tests whether the expression(whatever argument) is assigned or associated with a type of object/expression. It doesn't give the value just the type of object.  
 
 
 

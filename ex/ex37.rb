@@ -20,3 +20,6 @@ i=0
 	  print i, "\n"
 	  break
 	end
+
+x = 1
+puts defined?(x)
