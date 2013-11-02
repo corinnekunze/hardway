@@ -1,3 +1,4 @@
+=begin
 class Bugs
 	def smoosh
 		puts "You smoosh the bug."
@@ -23,3 +24,23 @@ i=0
 
 x = 1
 puts defined?(x)
+
+
+loop do
+	puts "alala"
+	puts "aldka"
+	puts "dds"
+end
+
+
+for i in 0..5
+   if i < 4 then
+      next
+   end
+   puts "Value of local variable is #{i}"
+end
+
+=end 
+
+input = STDIN.gets.chomp()
+puts input

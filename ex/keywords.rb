@@ -38,6 +38,27 @@ case = sets up a system for a variable depending on it's value. EX:
 class = classes are first-class Objects. Meaning they can be dynamically created/destroyed/passed to a function/have all rights of a variable/and returned as a variable. 
 def = a Ruby 'method'. Is very similar to a function in other languages. Best practices first letter should be lowercase. 
 defined? = tests whether the expression(whatever argument) is assigned or associated with a type of object/expression. It doesn't give the value just the type of object.  
+do = do is a 'block'. {} also signifies a ruby block. Blocks signify code that can be passed around in your program. A do block would be better for multi lined code. Blocks can have arguments and are signified by the pipe symbols |b| or |b, e| to have multiple arguments. 
+else = in an if statement, happens rather than if or elsif
+elseif = comes after first if statement, states another expression to watch for before else.
+END = same as BEGIN, declares code that should be read at the end of the program.
+end = declares the end of a code block
+ensure = typically run with a begin > rescue > ensure > end expression. ensure makes sure that the code is run.
+false = represents a boolean false statement. Can be used as a variable, or method name. 
+for = for loop. 
+	for current_iteration_number in 1..100 do
+		puts "This is #{current_iteration_number}"
+	end
+in = pretty literal. useful with for loops. For item in array_var do ... blank
+CONST = a constant should stay the same for the rest of the program. 
+module = useful for bringing defining and reusing chunks of code. 
+next = jumps to the next iteration of the loop. 
+nil = does not have a valid object
+not = same as !
+or = this or that
+redo = inside a loop, retries the current iteration
+rescue = execudes code in a begin expression when an error is thrown
+	
 
 
 
