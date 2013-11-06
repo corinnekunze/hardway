@@ -41,6 +41,19 @@ for i in 0..5
 end
 
 =end 
+module Vehicular
+  def move_forward(n)
+    @position += n
+  end
+end
 
-input = STDIN.gets.chomp()
-puts input
+class Vehicle
+  include Vehicular  # Adds Vehicular to the lookup path
+end
+
+class Car < Vehicle
+  def move_forward(n)
+    puts "Vrooom!"
+    super            # Calls Vehicular#move_forward
+  end
+end

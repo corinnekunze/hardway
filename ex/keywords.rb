@@ -51,15 +51,31 @@ for = for loop.
 	end
 in = pretty literal. useful with for loops. For item in array_var do ... blank
 CONST = a constant should stay the same for the rest of the program. 
-module = useful for bringing defining and reusing chunks of code. 
+module = useful for bringing in, defining and reusing chunks of code. 
 next = jumps to the next iteration of the loop. 
 nil = does not have a valid object
 not = same as !
 or = this or that
 redo = inside a loop, retries the current iteration
-rescue = execudes code in a begin expression when an error is thrown
-	
+rescue = execudes code in a begin expression when an error is thrown. Can state (like if statements) what kind of exception you want to catch. And else can take care of the rest.
+raise = raise an exception (or error). Raises an exception and will print anything that comes after it. 
+return = return a value or string but allows you to break out early. (of a method, loop, etc.)
+self = states the current object. Could also use as a method to pass the method as an argument to itself.
+class S  
+  puts 'Just started class S'  
+  puts self  
+  module M  # puts S
+    puts 'Nested module S::M'  
+    puts self  # puts S::M
+  end  
+  puts 'Back in the outer level of S'  
+  puts self  # puts S
+end 
 
+super = inserts code from the original method.
+then = optional in an if statement unless you are using a one line if statement
+true = boolean. Same as and opposite of false. 
+undef = undefines. Can undefine a class to reassign methods or if we want to end in #method_missing.
 
 
 ANYTHING_GOES_HERE
