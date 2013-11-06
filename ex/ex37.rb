@@ -40,7 +40,6 @@ for i in 0..5
    puts "Value of local variable is #{i}"
 end
 
-=end 
 module Vehicular
   def move_forward(n)
     @position += n
@@ -57,3 +56,6 @@ class Car < Vehicle
     super            # Calls Vehicular#move_forward
   end
 end
+
+=end 
+

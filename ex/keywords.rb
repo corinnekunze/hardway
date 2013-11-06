@@ -76,6 +76,32 @@ super = inserts code from the original method.
 then = optional in an if statement unless you are using a one line if statement
 true = boolean. Same as and opposite of false. 
 undef = undefines. Can undefine a class to reassign methods or if we want to end in #method_missing.
+unless = i += 1 unless i > 10 easy peasy. 
+	unless person.present?
+		puts "There's no such person"
+	end
+
+	Some guidelines unless: don't use negative statatments (ie: double negatives). Unless is already negative.
+	Else potentially causes difficult interpretation.
+until = 
+	until $i > $num  do
+	   puts("Inside the loop i = #$i" )
+	   $i +=1;
+	end
+when = part of a case switch statement. 
+	case 1
+	when 1..5
+		puts "blah"
+	when 6 
+		puts "blahd"
+	else
+		puts " dfaks"
+	end
+while = 
+	while $i < $num  do
+	   puts("Inside the loop i = #$i" )
+	   $i +=1
+	end
 
 
 ANYTHING_GOES_HERE
