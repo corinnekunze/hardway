@@ -108,6 +108,31 @@ yield = yield is a placeholder inside a block for code that you want to execute 
 	end
 	test { puts "hello world" }
 
+Data Types =============
+true = 1 == 1
+false = 1 != 1
+nil = does not have a valid object. Non defined.
+constants = Constants is a constant, constants is not.
+strings = "blah blah blah"
+numbers = 12321
+range = 1..5 = 1 2 3 4 5
+array = ["a", "bunch", "of", "things", 5]
+hash = Much like a dictionary 
+	hash = { :leia => "Princess from Alderaan", :han => "Rebel without a cause", :luke => "Farmboy turned Jedi"}
+	puts hash[:leia]
+	puts hash[:han]
+	puts hash[:luke]
+
+Escape sequences ========
+\" – double quote
+\\ – single backslash
+\a – bell/alert
+\b – backspace
+\r – carriage return
+\n – newline
+\s – space
+\t – tab
+
 
 ANYTHING_GOES_HERE
 
