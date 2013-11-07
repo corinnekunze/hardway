@@ -102,6 +102,11 @@ while =
 	   puts("Inside the loop i = #$i" )
 	   $i +=1
 	end
+yield = yield is a placeholder inside a block for code that you want to execute inside of the block. 
+	def test
+		yield
+	end
+	test { puts "hello world" }
 
 
 ANYTHING_GOES_HERE

@@ -59,3 +59,7 @@ end
 
 =end 
 
+def test
+	yield
+end
+test { puts "hello world" }
